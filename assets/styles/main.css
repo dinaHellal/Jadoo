@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --charleston-green: #212832;
+  --jelly-bean: #df6951;
+  --space-cadet: #181e4b;
+  --dark-electric-blue: #5e6282;
+  --orange-web: #f1a501;
+  --yankees-blue: #14183e;
+  --blue-sapphire: #006380;
+  --medium-purple: #8a79df;
+  --roman-silver: #84829a;
+  --manatee: #9ca0b0;
+  --iris: #4152ca;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+header {
+  border-bottom: 1px solid rgb(0 0 0 / 0.1);
+  padding: 47px;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav {
+  position: relative;
+}
+header nav input {
+  appearance: none;
+}
+header nav ul{
+  list-style: none;
+}
+@media (max-width: 991px) {
+  header nav ul {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: none;
+    background-color: var(--white);
+  }
+  header nav ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(0 0 0 / 0.1);
+  }
+}
+header nav input:checked + ul {
+  display: block;
+}
+@media (min-width: 992px) {
+  header nav label,
+  header nav input {
+    display: none;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+  }
+  header nav ul li {
+    padding: 0 20px;
+  }
+}
+header nav ul li a {
+  font-family: "Poppins", serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--charleston-green);
+}
+header nav ul li .signup{
+  padding: 4px 10px;
+  border: 1px solid var(--charleston-green);
+border-radius: 5px;
+}
+header ul li select{
+  font-weight: 600;
+  font-size: 17px;
+  border: none;
+  outline: none;
+}
