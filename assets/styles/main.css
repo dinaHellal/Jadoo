@@ -212,7 +212,7 @@ font-weight: 700;
   font-size: 20px;
 font-weight: 600;
 align-items: center;
-margin-bottom: 20px;
+margin-bottom: 40px;
 }
 .servies p{
   font-family:'Poppins' ;
@@ -227,4 +227,44 @@ color: var(--manatee);
   border-radius: 36px;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.top-salling .pest-destnation{
+  text-align: center;
+  align-items: center;
+}
+.pest-destnation span{
+  font-family: 'Poppins' ;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--charleston-green);
+  margin-bottom: 30px;
+}
+.pest-destnation h2{
+  font-family: 'Volkhov' ;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 30px;
+  margin-bottom: 60px;
+  color: var(--charleston-green);
+}
+.cites{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+.cites .citycards{
+  text-align: center;
+  align-items: center;
+margin-top: -140px;
+margin-bottom: 20px;
+background-color: var(--white);
+
+}
+.cites .citycards span ,p{
+display: inline;
+justify-content: space-between;
+margin-right: 38px;
+padding: 20px;
+
 }
