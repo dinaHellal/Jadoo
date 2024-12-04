@@ -44,7 +44,6 @@ img {
   }
 }
 header {
-  border-bottom: 1px solid rgb(0 0 0 / 0.1);
   padding: 47px;
 }
 header .container {
@@ -106,4 +105,72 @@ header ul li select{
   font-size: 17px;
   border: none;
   outline: none;
+}
+.hero {
+  height: calc(100vh - 134px);
+
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .hero .info {
+    width: 50%;
+  }
+}
+.hero .info p.welcome-massage{
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--jelly-bean);
+  margin-bottom: 15px;
+}
+.hero .info h1{
+  font-family: 'Volkhov';
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--space-cadet);
+  margin-bottom: 15px;
+}
+.hero .info .enjoy {
+  position: relative;
+  background-image: url(../images/Decore.png);
+}
+.hero .info p{
+  font-family: "Poppins";
+color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+
+.option .find-out{
+background-color: var(--orange-web);
+padding: 20px;
+border-radius: 10px;
+color: var(--white);
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+font-family: 'Google Sans';
+}
+.hero .option  .play-icon{
+  color: var(--roman-silver);
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+.hero .images .blob {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+@media (max-width: 991px) {
+  .hero .image {
+    display: none;
+  }
 }
