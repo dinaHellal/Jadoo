@@ -222,3 +222,9 @@ margin-bottom: 20px;
   align-items: center;
 color: var(--manatee);
 }
+.servies .airplan{
+  border: 2px solid var(--white);
+  border-radius: 36px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
