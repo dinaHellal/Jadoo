@@ -135,7 +135,7 @@ header ul li select {
   color: var(--space-cadet);
   margin-bottom: 15px;
 }
-.hero .info .enjoy {
+.hero .info h1 .enjoy {
   position: relative;
 }
 .hero .info p {
@@ -468,4 +468,27 @@ color: var(--roman-silver);
   font-size: 14px;
   color: var(--roman-silver);
 
+}
+.supporters{
+  display: flex;
+  margin: 60px 20px;
+  align-items: center;
+text-align: center;
+gap: 50px;
+flex-wrap: wrap;
+background-color: var(--white);
+
+}
+.supporters .supporters-images .image {
+  box-shadow: rgba(0, 0, 0, 0.055) 0px 3px 8px;
+border: 1px solid var(--white);
+border-radius: 10px;
+margin-top: 45px;
+}
+.supporters .supporters-images .image2 ,.image1{
+  margin-bottom: 45px;
+margin-left: 30px;
+}
+.supporters .supporters-images .image1{
+  margin-bottom: -5px;
 }
