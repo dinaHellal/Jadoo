@@ -16,7 +16,7 @@
   --medium-purple: #8a79df;
   --roman-silver: #84829a;
   --manatee: #9ca0b0;
-  --gray: rgba(172, 172, 172, 0.623);
+  --gray: rgba(172, 172, 172, 0.925);
   --iris: #4152ca;
 }
 a {
@@ -496,14 +496,15 @@ margin-left: 30px;
   display: flex;
   margin-top: 100px;
   margin-bottom: 10px;
-  align-items: center;
-  text-align: center;
   gap: 20px;
 }
 .subscriber form{
   background-color: var(--gray);
   padding: 40px;
+  align-items: center;
+  text-align: center;
   border-radius: 50px 15px 10px 10px;
+
 }
 .subscriber form p{
   font-family: 'Poppins';
@@ -534,4 +535,68 @@ margin-left: 30px;
 position:relative ;
 left: 40px;
 top: 5px;
+}
+.subscriber  .image4{
+position: relative;
+left: 1050px;
+bottom: 60px;
+z-index: -1;
+}
+footer{
+  display: flex;
+  padding: 0 100px;
+  gap: 40px;
+  flex-wrap: wrap;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+footer h1{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+footer h2{
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 21px;
+}
+footer p{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--dark-electric-blue);
+}
+.discover {
+background-color: var(--white);
+border-radius: 20px;
+}
+.discover img{
+  margin-bottom: 10px;
+  margin-left: 5px;
+  box-shadow: rgba(0, 0, 0, 0.055) 0px 3px 8px;
+
+}
+.discover .insta {
+  background-color: crimson;
+  border-radius: 8px;
+}
+.discover h2{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--dark-electric-blue);
+  margin-bottom: 10px;
+}
+.foot2{
+  display: flex;
+align-items: center;
+text-align: center;
+}
+footer .foot2 p{
+  
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--dark-electric-blue);
 }
