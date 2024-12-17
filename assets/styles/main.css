@@ -265,10 +265,13 @@ p {
   justify-content: space-between;
   margin-right: 38px;
 }
-.trips {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-  margin-left: 70px;
+.trips .container {
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 100px;
+  /* margin-left: 70px; */
 }
 .trips h5 {
   font-weight: 600;
@@ -288,6 +291,7 @@ p {
 }
 .trips .stips {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   margin-bottom: 20px;
 }
@@ -338,6 +342,9 @@ p {
   width: 370px;
   height: 400px;
   border-radius: 26px;
+}
+.trips h2{
+font-size: 20p;
 }
 .trip-card h3 {
   flex-wrap: wrap;
@@ -536,11 +543,17 @@ position:relative ;
 left: 40px;
 top: 5px;
 }
+
 .subscriber  .image4{
 position: relative;
 left: 1050px;
 bottom: 60px;
 z-index: -1;
+}
+@media (max-width:991px) {
+  .subscriber .image4{
+    display: none;
+  }
 }
 footer{
   display: flex;
