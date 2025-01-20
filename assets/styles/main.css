@@ -271,7 +271,6 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 gap: 100px;
-  /* margin-left: 70px; */
 }
 .trips h5 {
   font-weight: 600;
